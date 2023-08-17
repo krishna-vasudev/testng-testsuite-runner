@@ -20,5 +20,9 @@ Please set your vscode's default terminal as cmd(command prompt).
 ### 0.0.1
 Initial release of the extension
 
+### Contribution
+
+If somebody is interested in  contributing to development and testing of linux and mac version feel free to checkout and make a pr.
+
 ## Know the author
 * Connect with me on [LinkedIn](https://www.linkedin.com/in/debraj-bhal/). I did love to hear how you feel using this extension.
