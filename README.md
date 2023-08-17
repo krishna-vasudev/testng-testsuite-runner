@@ -7,7 +7,7 @@ This extension supports running testng xml testsuite by just right clicking on e
 Refer to below gif to understand working of extension:
 
 
-\!\[feature X\]\(images/feature-x.png\)
+![](images/features.gif)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
