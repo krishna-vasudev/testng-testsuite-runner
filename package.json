@@ -1,0 +1,54 @@
+{
+  "name": "testng-testsuite-runner",
+  "displayName": "TestNg TestSuite Runner",
+  "description": "It helps running xml testsuite for testng in vscode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:xml"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "testng-testsuite-runner.runtestngtestsuite",
+      "title": "Run TestNg TestSuite"
+    }],
+    "menus": {
+			"explorer/context": [
+				{
+					"when": "resourceLangId == xml",
+					"command": "testng-testsuite-runner.runtestngtestsuite",
+					"group": "navigation"
+				}
+      ],
+      "editor/context": [
+				{
+					"when": "resourceLangId == xml",
+					"command": "testng-testsuite-runner.runtestngtestsuite",
+					"group": "navigation"
+				}
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.81.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "20.2.5",
+    "eslint": "^8.41.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.3",
+    "@vscode/test-electron": "^2.3.2"
+  }
+}
