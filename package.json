@@ -2,7 +2,8 @@
   "name": "testng-testsuite-runner",
   "displayName": "TestNg TestSuite Runner",
   "description": "It helps running xml testsuite for testng in vscode.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "image/logo.png",
   "publisher": "DebrajBhal",
   "engines": {
     "vscode": "^1.81.0"
